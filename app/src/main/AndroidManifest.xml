@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartbrace">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/sblogo_small"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LogTracker"
+            android:label="Log Tracker"/>
+
+        <activity
+            android:name=".SensorReports"
+            android:label="Sensor Reports"/>
+
+        <activity
+            android:name=".GyroscopeA"
+            android:label="Gyroscope A - Report"/>
+
+        <activity
+            android:name=".Discover"
+            android:label="Discovery"/>
+
+        <activity
+            android:name=".Settings"
+            android:label="Settings"/>
+
+        <activity
+            android:name=".LinkWebView">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Discover"/>
+        </activity>
+
+        <activity
+            android:name=".SBWebView">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
+    </application>
+
+</manifest>

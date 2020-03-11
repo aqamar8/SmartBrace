@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "320995347201",
+    "firebase_url": "https://smartbrace-d9b5d.firebaseio.com",
+    "project_id": "smartbrace-d9b5d",
+    "storage_bucket": "smartbrace-d9b5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320995347201:android:863a41cd8774515964e900",
+        "android_client_info": {
+          "package_name": "com.example.smartbrace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320995347201-eiae7p263atn14vl2f5jb6vhoeibk99n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartbrace",
+            "certificate_hash": "de4d05276d19fd40b6da984310239f2a7eec1dd9"
+          }
+        },
+        {
+          "client_id": "320995347201-0uaeuckt1b3n23m5bh3ctanb2jn6o3fl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1x5cRtnc01xAUUf_0JWF8ADuIGMgTVEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320995347201-0uaeuckt1b3n23m5bh3ctanb2jn6o3fl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

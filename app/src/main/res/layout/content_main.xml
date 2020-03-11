@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/cardview_light_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <ProgressBar
+            android:id="@+id/accurateBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="425dp"
+            android:visibility="invisible"
+            android:indeterminateDrawable = "@drawable/progressaccurate"/>
+        <ProgressBar
+            android:id="@+id/inaccurateBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="425dp"
+            android:visibility="invisible"
+            android:indeterminateDrawable = "@drawable/progressinaccurate"/>
+        <ProgressBar
+            android:id="@+id/loadingBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="425dp"
+            android:visibility="invisible"
+            android:indeterminateDrawable = "@drawable/progressloading"/>
+
+        <TextView
+            android:id="@+id/cForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/logButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Log Tracker"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/srButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Sensor Reports"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/discButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Discover"
+        android:textSize="18sp" />
+
+
+
+</LinearLayout>
