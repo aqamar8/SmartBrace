@@ -37,7 +37,7 @@ Settings (Complete) - Abaad Q.:
 - receives current vibrator motor setting (e.g: ON/OFF) via firebase,
    any changes made get transmitted to firebase and into Arduino
 - reset user data option, confirms with the user and,
-   upon confirmation clears the following data :LogData/GyroData/EmgData on firebase
+   upon confirmation clears the following data: LogData/GyroData/EmgData on firebase
 - all settings received/transmitted in realtime
 
 SmartBrace Website (complete) - Cameron B.-developed, Abaad Q.-hosted:
