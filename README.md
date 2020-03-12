@@ -2,8 +2,8 @@
 
 SmartBrace Application for Carpal Tunnel Syndrome - Capstone Project
 
-Android 8.0 (API: 21) - Oreo
-Emulator: Samsung S10 Plus
+- Android 8.0 (API: 21) - Oreo
+- Emulator: Samsung S10 Plus
 
 Front Page (Complete) - Abaad Q.:
 - receives data 'logdata' from firebase every 3 seconds,
