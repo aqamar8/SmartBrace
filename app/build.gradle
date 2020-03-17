@@ -25,6 +25,10 @@ android {
     }
 }
 
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
@@ -41,4 +45,6 @@ dependencies {
     implementation 'androidx.gridlayout:gridlayout:1.0.0'//Analytics
 
     implementation 'com.firebaseui:firebase-ui-database:6.2.0' //Firebase UI
+
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 }
