@@ -23,9 +23,13 @@ Log Tracker (Complete) - Abaad Q.:
 - connected to firebase realtime database, synced with arduino
 - all data received/transmitted in realtime
 
-Sensor Reports (Remaining) - Omar Z.:
-- graphs gyroscope/emg readings
-- displays current gyroscope/emg readings
+Sensor Reports (Complete) - Omar Z.:
+- 3 graph choices added to layout: Gyro, EMG Sensor, and EMG Voltage
+- receive data from multiple firebase branches, then graph data pulled
+  with options of seeing past hour, 6 hours or 24 hours of data graphed.
+- incorporate notifications into graphs where if form of brace is inaccurate
+  display data points in red, otherwise blue for user to distinguish uses.
+- all data received/transmitted in realtime
 
 Discover Page (Complete) - Abaad Q.:
 - contains six useful links to syndrome related resources
@@ -45,7 +49,7 @@ SmartBrace Website (complete) - Cameron B.-developed, Abaad Q.-hosted:
 - Hosted on my Amazon AWS Cloud, 
    can be accessed here: https://aqamar.s3.ca-central-1.amazonaws.com/index.html
  
-FireBase Connections - Abaad Q.:
+FireBase Connections - Abaad Q., Omar Z.:
 - several instances of firebase connections established and maintained throughout the application
 - e.g: LogData, Gyro, EMG, VibrateMotor
  
