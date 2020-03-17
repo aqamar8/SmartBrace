@@ -15,7 +15,34 @@ class SensorReports : AppCompatActivity () {
         //Gyroscope A
         gyroA.setOnClickListener {
             Log.d("SensorReports", "Attempt to access Gyroscope A")
-            startActivity(Intent(this, GyroscopeA::class.java))
+            startActivity(Intent(this, Infolog::class.java))
+        }
+
+        laygyro.setOnClickListener {
+            Log.d("SensorReports", "Attempt to access Gyroscope A")
+            startActivity(Intent(this, Infolog::class.java))
+        }
+
+        //LOG GRAPH
+        emg.setOnClickListener {
+            Log.d("main", "LOG GRAPH button was pressed!")
+            startActivity(Intent(this, Infologemg::class.java))
+        }
+
+        layemg.setOnClickListener {
+            Log.d("main", "LOG GRAPH button was pressed!")
+            startActivity(Intent(this, Infologemg::class.java))
+        }
+
+        //EMG GRAPH
+        emgwave.setOnClickListener {
+            Log.d("main", "EMG WAVE GRAPH button was pressed!")
+            startActivity(Intent(this, Infologemgwave::class.java))
+        }
+
+        layemgwave.setOnClickListener {
+            Log.d("main", "EMG WAVE GRAPH button was pressed!")
+            startActivity(Intent(this, Infologemgwave::class.java))
         }
 
     }
