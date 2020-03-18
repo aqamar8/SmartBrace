@@ -72,14 +72,14 @@
                 android:id="@+id/emgwave"
                 android:layout_width="160dp"
                 android:layout_height="160dp"
-                android:background="@drawable/emg2" />
+                android:background="@drawable/emg2"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
                 android:text="EMG Voltages"
-                android:textSize="18sp" />
+                android:textSize="18sp"/>
         </LinearLayout>
 
         <LinearLayout

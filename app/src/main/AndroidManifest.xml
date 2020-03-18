@@ -50,6 +50,24 @@
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity"/>
         </activity>
+        <activity
+            android:name=".Infolog"
+            android:label="Gyroscope Readings">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SensorReports"/>
+        </activity>
+        <activity
+            android:name=".Infologemg"
+            android:label="EMG Sensor Binarized Readings">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SensorReports"/>
+        </activity>
+        <activity
+            android:name=".Infologemgwave"
+            android:label="EMG Sensor Voltage Readings">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SensorReports"/>
+        </activity>
 
     </application>
 
