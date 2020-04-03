@@ -1,3 +1,5 @@
+*NOTE* If you would like to run the code please exclude the "website" folder when attempting to run on Android Studios.
+
 # SmartBrace
 
 SmartBrace Application for Carpal Tunnel Syndrome - Capstone Project
