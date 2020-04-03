@@ -1,4 +1,4 @@
-*NOTE* If you would like to run the code please exclude the "website" folder when attempting to run on Android Studios.
+*NOTE* If you would like to run the code please exclude the "Website" folder when attempting to run on Android Studios.
 
 # SmartBrace
 
