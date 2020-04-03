@@ -1,0 +1,30 @@
+.wrapper {
+    width:100%;
+    margin:auto;
+}
+section {
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+.ib {
+    display:inline-block;
+    min-height: 50%;
+    overflow:hidden;
+    margin: 2%;
+    padding:0;
+    vertical-align: top;
+}
+.i1 {
+    width:100%;
+}
+.i2 {
+    width:100%;
+}
+.i3 {
+    width:100%;
+}
+.i4 {
+    width:100%;
+}

@@ -1,0 +1,110 @@
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+head {
+    color: rgb(79,38,131);
+    font-size: 50px; 
+}
+body{
+    background-color: rgb(255,255,255);
+}    
+h1 {
+    font-size: 200px;
+    color: rgb(79,38,131);
+    background-color: rgb(128,127,131);
+    padding: 20px;
+}
+h2 {
+    font-size 4px;
+    color: rgb(0,0,0);
+    font-family: 'Merriweather', serif;
+    font-style: oblique;
+}
+h3 {
+    font-size 20px;
+    color: rgb(0,0,0);
+    font-family: arial;
+}
+p {
+    font-size 14px;
+    color: rgb(0,0,0);
+    font-family: arial;
+    background-color: rgb(128,127,131);
+    border: 5px;
+    border-color: rgb(0,0,0);
+    padding: 5px;
+    border-style: solid;
+    display: inline-block;
+}
+.wrapper {
+
+}
+section {
+    
+}
+.ib {
+   
+}
+.i1 {
+    
+}
+.i2 {
+    font-size: 20px;
+    text-align: left;
+}
+.i3 {
+    font-size: 20px;
+    text-align: left;
+}
+.i4 {
+    background-color: rgb(79,38,131);
+    color: rgb(255,255,255);
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+li {
+    background-color: rgb(79,38,131);
+    text-align: rgb(255,255,255);
+    line-height: 50px;
+    font-size: 35px;
+    font-family: arial;
+}
+li:hover {
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255); 
+    font-family: arial;
+}
+ln {
+    text-align: center;
+    line-height: 50px;
+    font-size: 35px;
+    font-family: arial;
+}
+.row {
+    display:block;
+    width:200px;
+    font-family: 'Merriweather', serif;
+}
+.row2 {
+    display: block;
+    width: 300px;
+    font-family: 'Merriweather', serif;
+}
+input[type=submit] {
+    display:block;
+    background-color: rgb(79,38,131);
+    color: rgb(255,255,255);
+    width: 200px;
+    height: 50px;
+}
+.hidden {
+   display:none;
+}
+.visible {
+   display:block;
+}
+.textbox {
+    display:inline-block;
+    font-size: 18px;
+    margin: 3px;
+    padding: 5px;
+}
