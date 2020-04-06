@@ -46,13 +46,13 @@ Settings (Complete) - Abaad Q.:
    upon confirmation clears the following data: LogData/GyroData/EmgData on firebase
 - all settings received/transmitted in realtime
 
-SmartBrace Website (complete) - Cameron B.-developed, Abaad Q.-hosted:
+SmartBrace Website (Complete) - Cameron B.-developed, Abaad Q.-hosted:
 - project website containing information on carpal tunnel syndrome and the application/device
 - Hosted on my Amazon AWS Cloud, 
    can be accessed here: https://aqamar.s3.ca-central-1.amazonaws.com/index.html
  
 FireBase Connections - Abaad Q., Omar Z.:
 - several instances of firebase connections established and maintained throughout the application
-- e.g: LogData, Gyro, EMG, VibrateMotor
+- e.g. braches: LogData, Gyro, EMG, VibrateMotor
  
  
