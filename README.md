@@ -7,6 +7,8 @@ SmartBrace Application for Carpal Tunnel Syndrome - Capstone Project
 - Android 8.0 (API: 21) - Oreo
 - Emulator: Samsung S10 Plus
 
+- SmartBrace: https://aqamar.s3.ca-central-1.amazonaws.com/index.html
+
 Front Page (Complete) - Abaad Q.:
 - receives data 'logdata' from firebase every 3 seconds,
    checks for log indicating an incorrect posture
